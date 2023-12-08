@@ -1,0 +1,185 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container{
+   display: flex;
+   justify-content:space-around;
+   align-items: center;
+   margin: 100px auto;
+    width: 700px;
+    height: 490px;
+    border: solid 2px gray;
+    background: darkgrey;
+
+}
+#first{
+    border-radius: 10px;
+    width:310px;
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+}
+#last{
+    border-radius: 10px;
+    width:310px;
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+}
+#email{
+    border-radius: 10px;
+    width:310px;
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+}
+#password{
+    border-radius: 10px;
+    width:310px;
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+}
+#pass1{
+    border-radius: 10px;
+    width:310px;
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+}
+.gender{
+    display: flex;
+    flex-direction: row;
+    color: black;
+    font-size: 25px;
+}
+.child input{
+   padding: 6px 0px;
+   display: flex;
+   justify-content: space-between;
+   align-items: end;
+    
+
+}
+.dob{
+    display: flex;
+    flex-direction: row;
+}
+.submit{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    position: relative;
+   top: 15px;
+   
+}
+
+#submit{
+border-radius: 10px;
+width:155px;
+color: black;
+font-size: 15px;
+font-weight: bold;
+background: limegreen;
+
+}
+h1::first-letter{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 50px;
+    color: rgb(48, 20, 228);
+}
+h1::after{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 50px;
+    color: yellowgreen;
+}
+
+    
+
+.c{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.head{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+   top: 60px;
+   
+}
+h1{
+    color: rgb(239, 116, 21);
+}
+
+    
+  
+
+.sidenav{
+    padding: 0px 30px;
+   
+    align-items: center;
+}
+.sidenav ul{
+    position: relative;
+    bottom: 700px;
+    background: orange;
+    width:120px;
+    
+
+}
+.sidenav ul li{
+    padding: 15px;
+    list-style: none;
+}
+
+.sidenav ul li a{
+    text-decoration: none;
+    color: white;
+}
+.cont{
+    display: grid;
+    grid-template-areas: 
+    "im1 im1 im2"
+    "im1 im1 im3"
+    "im4 im5 im6";
+    width: 35%;
+    position: relative;
+   margin-top: -403px;
+   margin-right: 180px;
+
+    
+}
+.hu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.love1{
+    grid-area: im1;
+}
+.love2{
+    grid-area: im2;
+}
+.love3{
+    grid-area: im3;
+}
+.love4{
+    grid-area: im4;
+}
+.love5{
+    grid-area: im5;
+}
+.love6{
+    grid-area: im6;
+}
+img{
+    width: 100%;
+    
+    
+}
